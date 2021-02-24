@@ -6,10 +6,14 @@ const testCases: [number, string][] = [
   [ 2, 'II' ],
   [ 3, 'III' ],
   [ 5, 'V' ],
+  [ 6, 'VI' ],
+  [ 7, 'VII' ],
+  [ 8, 'VIII' ],
   [ 10, 'X' ],
   [ 20, 'XX' ],
   [ 30, 'XXX' ],
   [ 50, 'L' ],
+  [ 80, 'LXXX' ],
   [ 100, 'C' ],
   [ 200, 'CC' ],
   [ 300, 'CCC' ],
@@ -17,6 +21,7 @@ const testCases: [number, string][] = [
   [ 1000, 'M' ],
   [ 1523, 'MDXXIII' ],
   [ 2000, 'MM' ],
+  [ 2085, 'MMLXXXV' ],
   [ 3000, 'MMM' ]
 ];
 
