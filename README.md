@@ -7,6 +7,21 @@
 - Für Deine Kolleginnen und Kollegen, im Zweifelsfall für Dein zukünftiges Ich
 
 
+## Linter
+
+- JSLint (historisch)
+  - Douglas Crockford ("JavaScript: The Good Parts")
+- JSHint (historisch)
+  - Etwas umfangreicher, etwas höflicher, …
+- ESLint
+  - Nicolas C. Zakas
+  - Plugin-basiert (Regeln sind Plugins, Parser sind Plugins, …)
+  - Konfiguration zB https://www.npmjs.com/package/eslint-config-es
+- TSLint (deprecated => ESLint)
+  - Palantir
+  - Fork von ESLint für TypeScript
+
+
 ## Leitplanken und Prinzipien
 
 - Dinge klein, kompakt und überschaubar halten!

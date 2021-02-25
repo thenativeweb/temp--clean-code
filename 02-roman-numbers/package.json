@@ -5,11 +5,15 @@
   "devDependencies": {
     "@types/mocha": "8.2.1",
     "assertthat": "5.2.5",
+    "eslint": "7.20.0",
+    "eslint-config-es": "3.28.10",
     "mocha": "8.3.0",
     "ts-node": "9.1.1",
     "typescript": "4.2.2"
   },
   "scripts": {
-    "test": "npx mocha --bail --recursive --require ts-node/register --ui tdd './test/**/*Tests.ts'"
+    "analyse": "npx eslint './**/*.ts'",
+    "test": "npx mocha --bail --recursive --require ts-node/register --ui tdd './test/**/*Tests.ts'",
+    "qa": "npm run analyse && npm run test"
   }
 }

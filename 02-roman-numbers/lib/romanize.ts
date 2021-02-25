@@ -1,7 +1,7 @@
 import { mapArabicDigitsToRomanDigits } from './mapArabicDigitsToRomanDigits';
 import { splitArabicNumberIntoDigits } from './splitArabicNumberIntoDigits';
 
-function romanize(arabicNumber: number): string {
+const romanize = function (arabicNumber: number): string {
   if (arabicNumber <= 0) {
     throw new Error('Can not romanize a non-supported number.');
   }
@@ -11,6 +11,6 @@ function romanize(arabicNumber: number): string {
   const romanNumber = romanDigits.join('');
 
   return romanNumber;
-}
+};
 
 export { romanize };

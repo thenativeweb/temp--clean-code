@@ -5,13 +5,13 @@ const mappings = [
   { base: 'M', helperBase: 'd' }
 ];
 
-function mapArabicDigitToRomanDigit(arabicDigit: number, significance: number): string {
+const mapArabicDigitToRomanDigit = function (arabicDigit: number, significance: number): string {
   const { base, helperBase } = mappings[significance];
 
   if ([ 1, 2, 3 ].includes(arabicDigit)) {
     return base.repeat(arabicDigit);
   }
-  
+
   if ([ 4 ].includes(arabicDigit)) {
     return `${base}${helperBase}`;
   }
@@ -29,6 +29,6 @@ function mapArabicDigitToRomanDigit(arabicDigit: number, significance: number): 
   }
 
   return '';
-}
+};
 
-export { mapArabicDigitToRomanDigit };
+export { mapArabicDigitToRomanDigit };

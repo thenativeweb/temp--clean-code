@@ -1,6 +1,6 @@
 import { mapArabicDigitToRomanDigit } from './mapArabicDigitToRomanDigit';
 
-function mapArabicDigitsToRomanDigits(arabicDigits: number[]): string[] {
+const mapArabicDigitsToRomanDigits = function (arabicDigits: number[]): string[] {
   // Reverse the arabic digits, because we want to iterate over the digits from
   // right to left instead of left to right. Of course, we need to revert the
   // effect afterwards again.
@@ -10,6 +10,6 @@ function mapArabicDigitsToRomanDigits(arabicDigits: number[]): string[] {
     reverse();
 
   return romanDigits;
-}
+};
 
 export { mapArabicDigitsToRomanDigits };
