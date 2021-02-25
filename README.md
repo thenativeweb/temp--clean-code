@@ -39,6 +39,15 @@
   - Missstände ansprechen
   - Feedback einholen
   - Von Anfang an "richtig" machen (richtig im Sinne von, explizit, man hat darüber nachgedacht, bewusste Entscheidungen)
+- Keep it simple and stupid (KISS)
+  - Einfach, leichtgewichtig, schlank, strukturiert, elegant, schön, …
+  - Messbar?
+    - Lines of Code (LOC) => naja
+    - Halstead-Metrik => naja
+    - Zyklische Komplexität => naja
+    - Code Coverage (Testabdeckung) => naja
+  - Metrik optimieren statt Code optimieren?
+  - Negative Aussage ist verlässlich, positive Aussage sagt praktisch nichts aus
 - Don't Repeat Yourself (DRY)
   - Mehrfache auftretende Code-Blöcke auslagern, in Funktionen extrahieren
   - Direkt Tests dafür schreiben
@@ -58,4 +67,17 @@
   - Kein `hfkhweru`, kein `i`, kein `viewModelDe`
   - Versuchen, fachliche und zutreffende Namen zu finden
     - Wenn es eine Fachsprache gibt, sich an der Fachsprache orientieren
+- Broken-Windows-Theorie
+  - Fehler sofort beheben, nicht aufschieben
+  - Kurzfristig teuer oder langfristig richtig teuer
+  - Nicht behaupten, man wäre "fertig", wenn man weiß, dass es Dinge gibt, die noch nicht fertig sind
+- Issue-Tracking
+  - Wenn Fehler bekannt sind, sollte man sich die notieren
+  - Keine neuen Features, bevor nicht alle Bugs behoben sind
+- Weiterbildung
+  - Lesen, lesen, lesen, … (Zeitschriften, Bücher, Blogs, Artikel, YouTube, Podcasts, …)
+  - Auf dem Laufenden bleiben (Zeitschriften, Blogs, Twitter, Hacker News, YouTube, Podcasts, …)
+  - Austausch (Konferenzen, Meetups, StackOverflow, …)
+  - Gemeinsam entwickeln (Pair-Programming, Reviews, …)
+  - Proaktiv Wissen vermitteln und Erfahrung weitergeben (Links, Ideen, …)
 - Feind: Zeitdruck
