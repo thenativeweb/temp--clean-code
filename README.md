@@ -105,3 +105,9 @@
   - Gemeinsam entwickeln (Pair-Programming, Reviews, …)
   - Proaktiv Wissen vermitteln und Erfahrung weitergeben (Links, Ideen, …)
 - Feind: Zeitdruck
+
+
+## Weiterführendes
+
+- https://www.thenativeweb.io/
+- https://www.youtube.com/channel/UC0BtS97KQR7I4Xqa9VYlkvg
