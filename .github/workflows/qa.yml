@@ -1,0 +1,35 @@
+name: QA
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  qa:
+    name: QA
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        node-version: [ '12.x', '14.x' ]
+        os: [ ubuntu-latest, macos-latest ]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Install dependencies
+      run: |
+        cd 03-ocr
+        npm install
+    - name: Run code analysis
+      run: |
+        cd 03-ocr
+        npm run analyse
+    - name: Run tests
+      run: |
+        cd 03-ocr
+        npm run test
