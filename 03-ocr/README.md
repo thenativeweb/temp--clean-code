@@ -15,3 +15,5 @@
 ## Aufgabe
 
 `getOcrNumbers('./ocr.txt') => [ 12345, 234507 ]`
+
+Have fun 😊
