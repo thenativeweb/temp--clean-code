@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "devDependencies": {
     "@types/mocha": "8.2.1",
-    "@types/node": "^14.14.31",
+    "@types/node": "14.14.31",
     "assertthat": "5.2.5",
     "eslint": "7.20.0",
     "eslint-config-es": "3.28.10",
