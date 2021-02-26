@@ -22,6 +22,30 @@
   - Fork von ESLint für TypeScript
 
 
+## Dokumentation
+
+- Vier Arten von Dokumentation
+  - Tutorial (Lernen)
+  - Konzepte (Verstehen)
+  - Anleitungen (Problemlösung)
+  - Referenz (Informationen)
+- Zielgruppen
+  - Anwenderinnen und Anwender
+  - Entwicklerinnen und Entwickler
+- Aspekte
+  - Versionen
+  - Sprachen (DE, EN, FR, …)
+  - Sprachen (JavaScript, TypeScript, Go, …)
+- Technische Herausforderungen
+  - Suche (Stemming, Verschlagwortung, …)
+- Code + Dokumentation nah beieinander
+  - Doku mit im Repository
+  - Offenes Format
+    - Beschränkung bei Formatierung (Fokus auf Inhalt)
+    - Bilder, Tabellen, Videos, Audio, …
+    - Markdown
+
+
 ## Leitplanken und Prinzipien
 
 - Dinge klein, kompakt und überschaubar halten!
