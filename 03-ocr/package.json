@@ -1,6 +1,10 @@
 {
   "name": "ocr",
   "version": "1.0.0",
+  "dependencies": {
+    "@types/lodash": "4.14.168",
+    "lodash": "4.17.20"
+  },
   "devDependencies": {
     "@types/mocha": "8.2.1",
     "@types/node": "14.14.31",
@@ -15,9 +19,5 @@
     "analyse": "npx eslint './**/*.ts'",
     "test": "npx mocha --bail --recursive --require ts-node/register --ui tdd './test/**/*Tests.ts'",
     "qa": "npm run analyse && npm run test"
-  },
-  "dependencies": {
-    "@types/lodash": "^4.14.168",
-    "lodash": "^4.17.21"
   }
 }
